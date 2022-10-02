@@ -19,7 +19,7 @@ client/web/out/
 client/web/build
 
 # misc
-client/web/.DS_Store
+.DS_Store
 client/web/*.pem
 
 # debug
