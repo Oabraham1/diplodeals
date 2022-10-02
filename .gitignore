@@ -1,0 +1,39 @@
+.idea
+.vscode
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+client/web/node_modules
+client/web/.pnp
+client/web/.pnp.js
+
+# testing
+client/web/coverage
+
+# next.js
+client/web/*.next/
+client/web/out/
+
+# production
+client/web/build
+
+# misc
+client/web/.DS_Store
+client/web/*.pem
+
+# debug
+client/web/npm-debug.log*
+client/web/yarn-debug.log*
+client/web/yarn-error.log*
+client/web/.pnpm-debug.log*
+
+# local env files
+client/web/.env*.local
+
+# vercel
+client/web/.vercel
+
+# typescript
+client/web/.tsbuildinfo
+client/web/next-env.d.ts
