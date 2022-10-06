@@ -1,8 +1,8 @@
-install-frontend:
-	cd frontend && npm install
+install-client:
+	cd client/web && npm install
 
-run-backend:
-	cd backend && mvn spring-boot:run
+run-server:
+	cd server && mvn spring-boot:run
 
-test-backend:
-	cd backend && mvn test
+test-server:
+	cd server && mvn test

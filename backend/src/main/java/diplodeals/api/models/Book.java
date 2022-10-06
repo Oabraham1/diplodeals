@@ -1,2 +1,0 @@
-package diplodeals.api.models;
-
