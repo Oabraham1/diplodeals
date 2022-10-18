@@ -2,7 +2,7 @@ install-client:
 	cd client/web && npm install
 
 run-server:
-	cd server && mvn spring-boot:run
+	cd server && gradle bootRun
 
 test-server:
-	cd server && mvn test
+	cd server && gradle test
